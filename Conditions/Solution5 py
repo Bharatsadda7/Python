@@ -1,0 +1,3 @@
+weather = int(intput("Enter the weather: ")
+if weather = sunny:
+elif weather = rainy
