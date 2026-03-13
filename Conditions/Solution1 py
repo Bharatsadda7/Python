@@ -1,4 +1,4 @@
-Age = int(intput("Enter the Age: ")
+Age = int(intput("Enter the Age: "))
 if Age<13:
 print("child")
 elif Age<20:
@@ -7,4 +7,5 @@ elif Age<60:
 print("Adult")
 elif Age>60:
 print("Senior")
+
 
