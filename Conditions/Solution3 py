@@ -1,0 +1,11 @@
+Score = int(intput("Enter the Score: "))
+if Score<60:
+print("F")
+elif Score<=69:
+print("D")
+elif Score<=79:
+print("C")
+elif Score<=89:
+print("B")
+elif Score<=100:
+print("A")
