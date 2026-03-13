@@ -1,1 +1,10 @@
+Age = int(intput("Enter the Age: ")
+if Age<13:
+print("child")
+elif Age<20:
+print("Teenager")
+elif Age<60:
+print("Adult")
+elif Age>60:
+print("Senior")
 
