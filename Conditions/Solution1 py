@@ -10,16 +10,3 @@ def categorize_age(age):
         return "Senior"
     else:
         return "Invalid age"
-
-# Main program
-try:
-    user_age = int(input("Enter your age: "))
-    
-    if user_age < 0:
-        print("Please enter a positive number.")
-    else:
-        category = categorize_age(user_age)
-        print(f"Age Category: {category}")
-        
-except ValueError:
-    print("Invalid input. Please enter a whole number.")
